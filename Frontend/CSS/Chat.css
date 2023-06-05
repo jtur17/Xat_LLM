@@ -1,0 +1,108 @@
+/* CSS/Chat.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav label,
+  nav input[type="text"],
+  nav button {
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  nav input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+  }
+  
+  nav button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  nav button#cerrarSesion {
+    background-color: #555555;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .pestaña {
+    flex: 1;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chat {
+    display: none;
+    max-width: 800px;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    overflow-y: scroll;
+    color: #000000;
+  }
+  
+  .container-boton {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+  }
+  
+  .button {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
